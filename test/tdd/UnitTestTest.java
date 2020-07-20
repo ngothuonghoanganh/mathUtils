@@ -29,10 +29,10 @@ public class UnitTestTest {
     @Test // ham main nay dung de test ca tinh huong
     public void testSuccessfulCasees(){
 //        assertEquals(120, 720);
-        assertEquals(120, computerFactories(5));
-        assertEquals(720, computerFactories(6));
-        assertEquals(720*7, computerFactories(7));
-        assertEquals(2, computerFactories(2));
+//        assertEquals(120, computerFactories(5));
+//        assertEquals(720, computerFactories(6));
+//        assertEquals(720*7, computerFactories(7));
+//        assertEquals(2, computerFactories(2));
 //        assertEquals(0, computerFactories(1));
 
     }
@@ -47,7 +47,7 @@ public class UnitTestTest {
         // le khong can xu li
         // Va ngoai le la 1 thu bat thuong, khong nhu du tinh, khong phai la 1 value
         // co the so sanh, tuc la khong the assertEquals(mot-cai-ngoai-le)
-        computerFactories(-5);
+//        computerFactories(-5);
     }
     public UnitTestTest() {
     }
