@@ -8,8 +8,6 @@ package tdd;
 import static anh.util.MathUtil.computerFactories;
 import static junit.framework.Assert.assertEquals;
 import org.junit.Test;
-
-
 /**
  *
  * @author ngoanh
