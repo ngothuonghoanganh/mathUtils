@@ -14,11 +14,20 @@ public class MathUtil {
 //    hamg tinh n! = 1.2.3..n
 //    int chi chiu toi 2 ty 1
 //    nen dung long nhung long chi co the tinh toi 15!
+
     public static long computerFactories(int n) {
-        long result = 1;
-        for (int i = 1; i <= n; i++) {
-            result *= i;
+//        long result = 1;
+//        for (int i = 1; i <= n; i++) {
+//            result *= i;
+//        }
+//        return result;
+        if (n < 0 || n > 15) {
+            throw new IllegalArgumentException("");
         }
-        return result;
+        if (n == 0 || n == 1) {
+            return 1;
+        }
+        
+        return n * computerFactories(n - 1); //n! = n * (n - 1)!
     }
 }
