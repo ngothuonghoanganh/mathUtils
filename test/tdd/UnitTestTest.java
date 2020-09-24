@@ -35,7 +35,7 @@ public class UnitTestTest {
 
     }
     
-//   @Test(expected = IllegalArgumentException.class)
+//   @Test(expected = NullPointerException.class)
 //         public void testFailedCasees(){
 ////        assertEquals(120, 720);
 //        // ham nay de test nhung tinh huong ca chon den tu nguoi dung
@@ -45,7 +45,7 @@ public class UnitTestTest {
 //        // le khong can xu li
 //        // Va ngoai le la 1 thu bat thuong, khong nhu du tinh, khong phai la 1 value
 //        // co the so sanh, tuc la khong the assertEquals(mot-cai-ngoai-le)
-////        computerFactories(-5);
+//        computerFactories(-5);
 //    }
     public UnitTestTest() {
     }
